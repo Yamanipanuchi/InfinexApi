@@ -3,21 +3,27 @@
 from InfinexApi import infinex
 
 Setup API Key
+
 exchange = infinex(apikey)
 
 Get Balance for currency
+
 exchange.getBalance(BPX)
 
 Get orderbook for currency pair
+
 exchange.getOrderBook(BPX/USDT)
 
 Get you current open orders
+
 exchange.getOpenOrders(BPX/USDT)
 
 Cancel current open order
+
 exchange.cancelOrder(650039)
 
 Open new order
+
 exchange.openOrder(BPX/USDT, 'BUY', 'MARKET', 'GTC', '0.013600', '3400')
 
 
